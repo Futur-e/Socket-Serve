@@ -56,17 +56,10 @@ function getSocket (server) {
     const user = userJoin(socket.id, userInfo);
     // 发送给当前客户端
     // socket.emit('userInfo', user)
-    socket.emit('message', {
-      msgType: 'login',
-      status: 'success',
-      content: '登录通知',
-      time: timestamps
-    })
 
     // 保存通知记录
     await dao_notification.addNotification(userInfo.id, 0, timestamps)
     // 更新session
-    await control_session.updateSession(userInfo.id, -1, '登录通知', timestamps)
 
     // 聊天
     socket.on('chat', async (data) => {

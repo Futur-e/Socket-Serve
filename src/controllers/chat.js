@@ -1,6 +1,4 @@
 const dao_chat = require('../dao/chat')
-// const dao_user = require('../dao/user')
-// const socket_user = require('../websocket/user')
 
 // 获取聊天记录
 const getChatList = async (req, res, next) => {

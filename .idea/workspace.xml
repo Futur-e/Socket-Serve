@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ebd4eda-9a30-441d-80cd-5a5ed94cdd63" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/emoticon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/session.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/emoticon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/notification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/emoticon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/websocket/sockio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/websocket/sockio.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2If6KnRP6k8bvuNKO0gtHwB9YBg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="E:\软件\Webstorm\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ebd4eda-9a30-441d-80cd-5a5ed94cdd63" name="Changes" comment="" />
+      <created>1670560238826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670560238826</updated>
+      <workItem from="1670560254466" duration="217000" />
+      <workItem from="1670560529126" duration="4095000" />
+      <workItem from="1670748891349" duration="3658000" />
+      <workItem from="1670755467829" duration="4986000" />
+      <workItem from="1671687041990" duration="2075000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

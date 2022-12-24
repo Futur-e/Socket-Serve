@@ -1,5 +1,5 @@
 const dao_file = require('../dao/file')
-const dao_emotion = require('../dao/emoticon')
+
 const utils = require('./utils')
 const fs = require('fs')
 const path = require('path')
@@ -82,12 +82,7 @@ const uploadFile = async (req, res, next) => {
         })
       }).then(async (size) => {
         let calcSize = utils.getPHSize(size[size.length - 3], size[size.length - 2])
-
-        let addRes = await dao_emotion.addEmoticon({
-          userId,
-          createdAt: timestamps,
-          src: src + `?size=${calcSize.width}x${calcSize.height}`
-        })
+        
         // console.log(addRes);
         res.end(JSON.stringify({
           code: addRes ? 200 : 400,

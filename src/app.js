@@ -11,7 +11,6 @@ const chatRouter = require('./routes/chat')
 const friendRequestRouter = require('./routes/friend_request')
 const notificationRouter = require('./routes/notification')
 const fileRouter = require('./routes/file')
-const emoticonRouter = require('./routes/emoticon')
 const Session = require('express-session')
 const middleware = require('./middleware/middleware')
 
@@ -44,7 +43,7 @@ app.use('/api/chats', chatRouter)
 app.use('/api/friend_requests', friendRequestRouter)
 app.use('/api/notis', notificationRouter)
 app.use('/api/files', fileRouter)
-app.use('/api/emoticons', emoticonRouter)
+
 
 
 //创建HTTP server
